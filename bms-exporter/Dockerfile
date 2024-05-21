@@ -1,4 +1,4 @@
-FROM python:3.7-alpine
+FROM arm32v6/python:3.8-slim
 
 COPY ./setup.py /app/
 COPY ./bms_exporter /app/bms_exporter/

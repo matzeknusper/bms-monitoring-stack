@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM arm32v6/ubuntu:18.04
 
 # this can be optimized, but for rpi development this was faster
 

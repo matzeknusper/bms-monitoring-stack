@@ -1,4 +1,4 @@
-FROM python:3.7-alpine
+FROM arm32v6/python:3.8-slim
 
 RUN apk add -U gcc
 RUN apk add -U musl-dev
